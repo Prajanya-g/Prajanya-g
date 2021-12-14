@@ -1,0 +1,10 @@
+Nam
+move east
+pick ring
+move east
+pick shield
+move west
+move south
+move south
+exit game
+Y

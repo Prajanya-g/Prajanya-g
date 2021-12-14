@@ -1,0 +1,24 @@
+
+Population	Total cost	Expected cost 	Note 
+
+100,000		367753.85	367753.85	Test normal functionality
+
+1,200,000	4413046.15	4413046.15	Test normal functionality
+
+1		3.68		4.09/0		Test edge case 1. Need further development
+ 
+0		0		0		Test edge case 0
+
+-200,000		-735507.69	error message 	Test non realistic population size, but the code still display's output
+
+150000.535	551632.74	error message 	Test non realistic population size, but the code still display's output
+
+1 million 	error		3677538.46	Test edge case use of string. Future development needed 
+
+
+
+Data about average distance traveled: 
+https://newsroom.aaa.com/2015/04/new-study-reveals-much-motorists-drive/
+
+Cost of fuel in Australia:
+https://www.globalpetrolprices.com/Australia/gasoline_prices/

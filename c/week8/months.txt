@@ -1,0 +1,4 @@
+INPUT	OUTOUT		NOTE	
+1	JAN		test normal functionality
+-3	wrong input	test negative integer 
+13 	wrong input 	test out of range 

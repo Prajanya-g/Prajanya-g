@@ -1,0 +1,8 @@
+
+num1	num2	num3	num4	num5	absSum	Note
+
+-1.0  	-2.0  	4.0   	-10.0  	5.0  	22.0	Test normal functionality
+
+ 3.4  	-7.1  	-2.0   	3.5  	5.0  	21.0	Test normal functionality
+
+ 0	2.0	-4.0	-4.0	0	10.0	Test normal functionality

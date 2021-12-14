@@ -1,0 +1,3 @@
+Input 	output	note 
+SaM	SAM	normal functionality
+Sam,A	SAM,A	use of comma

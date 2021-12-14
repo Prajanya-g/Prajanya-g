@@ -1,0 +1,5 @@
+Input	output	note
+
+23.20	73.76	test normal functionality 
+0	32.00	test normal functionality
+-24	-11.20	test normal functionality

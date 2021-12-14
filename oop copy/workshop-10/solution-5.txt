@@ -1,0 +1,6 @@
+Plot the board as a 2d array 
+Note the location of target and of the bishop
+If target not on even coordinates or odd coordinates depending on the bishops position 
+Can't attack 
+Else 
+Check for different way to reach 

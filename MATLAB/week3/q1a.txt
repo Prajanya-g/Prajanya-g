@@ -1,0 +1,4 @@
+A         	B			NOTE
+[1 : 4]   	[1 8 27 64]		Test normal functionality
+[-10 0 1.5]  	[-1.0000 0 0.0034]	Test normal functionality
+[-10 0 25 0 8]	[-1000 0 15625 0 512]	Test normal functionality

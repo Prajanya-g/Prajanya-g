@@ -1,0 +1,17 @@
+Stage2 consists of the calculation of the image data and a loop containing a switch case for what function he wants to perform. 
+
+Sample image 		rows 		columns		RGB  
+Sample1.jpg		384         512 		3 
+Sample2.jpg		315 		420 		3
+Sample3.jpg		2880 		5120 		3 
+Sample4.jpg		2880 		5120 		3 
+
+
+Switch 		Case executed 		expected
+CROP		crop                crop
+REsIzE		resize              resize
+Bright		bright              bright  
+Vertical 	invalid input       invalid input 
+1           invalid input       invalid input 
+@!          invalid input       invalid input 
+sdfa@!      invalid input       invalid input 

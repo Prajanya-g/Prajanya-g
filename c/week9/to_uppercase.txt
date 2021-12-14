@@ -1,0 +1,3 @@
+input	output 	note 
+sam	SAM 	test normal functionality 
+Sam,a	SAM,A	test use of comma

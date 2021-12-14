@@ -1,0 +1,13 @@
+Declare two arrays
+One store each new word 
+Other 
+Stores the frequency 
+Loop through all the words 
+If word not in the array 
+Add the word to the array 
+Add one to the frequency 
+Else 
+Add 1 to the frequency 
+End 
+End 
+End 

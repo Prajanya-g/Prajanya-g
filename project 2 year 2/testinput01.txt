@@ -1,0 +1,25 @@
+Vedant
+move east
+move east
+attack dracula
+pick dagger
+pick shield
+move west
+mav south
+move south
+attack dracula
+attack medusa
+move south
+move west
+exit game
+no
+pick dgger
+pick dagger
+move east
+move north
+attack medusa
+move east
+attack dracula
+move south
+attack princess
+exit game

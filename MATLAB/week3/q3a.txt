@@ -1,0 +1,5 @@
+input	output			Note
+-4    	'Divisible by four'	Test normal functionality
+0.10	'Not divisible by four'	Test normal functionality
+8/2     	'Divisible by four'	Test edge case fraction 
+0	'Divisible by four'	Test edge case 0

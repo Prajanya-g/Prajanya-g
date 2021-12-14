@@ -1,0 +1,4 @@
+A        B          	new A		Note
+[1 2 3]  [11 12 13]   	[1 2 3 11 12 13] Test normal functionality
+[-5 0 4] [7.2]   	[-5 0 4 7.2]	Test normal functionality
+[1]  	 [110 102 103]   [1 110 102 103]	Test normal functionality

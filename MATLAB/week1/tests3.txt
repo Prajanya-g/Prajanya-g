@@ -1,0 +1,21 @@
+
+Population	Total Usage 	demand covered 	expected output 	note 
+
+1,300,000 	475967.74 	63.03% 		63.03% 		Test normal functionality.
+
+0		0		Inf		0		Test edge case 0. Future development needed 
+
+-200,000		-73225.81	-409.69%		error message	Test non realistic population size, but the code still display's output
+
+ 
+150000.535	54919.55		546.25%		error message	Test non realistic population size, but the code still display's output 
+
+1.3 million 	error		error		366129.03	Test edge case use of string. Future development needed 
+
+
+
+Data about the mean number of person in household:
+https://www.statista.com/statistics/183657/average-size-of-a-family-in-the-us/
+
+Data about water usage per person later converted to house hold using the figures from the link above:
+https://www.thehindu.com/features/homes-and-gardens/how-much-water-does-an-urban-citizen-need/article4393634.ece

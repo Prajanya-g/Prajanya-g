@@ -1,0 +1,6 @@
+While loop till true
+Check if x is less than or greater than middle 
+If less than take the new middle from start to the first middle element 
+If greater than take the new middle from the first middle element to end 
+Repeat till x is equal to the middle 
+Or no middle term is left 

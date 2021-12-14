@@ -1,0 +1,9 @@
+Stage8 consists of a make the change function and save image
+
+Want to change 	want to save 	output	expected output 
+YES             YeS             valid	valid		
+No              nO              valid 	valid 
+n               y               invalid invalid
+N               yas             invalid invalid
+0               1               invalid invalid
+!@              @!              invalid invalid

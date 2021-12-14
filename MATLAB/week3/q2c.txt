@@ -1,0 +1,4 @@
+A        B          	C		Note
+[1 2 3]  [-1 -2 -3]   	[1 -1 2 -2 3 -3] Test normal functionality
+[-9 0 3] [7.2 0 4]   	[-9 7.2 0 0 3 4]	Test normal functionality
+[1 25 4] [11 12 13]      	[1 11 25 12 4 13]Test normal functionality

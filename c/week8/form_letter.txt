@@ -1,0 +1,5 @@
+NAME	AGE	FRACTION		OUTPUT		
+SAM	123	0.2		Your name is SAM, you are 123 years old and your employment fraction is 0.2.	
+P:)	21	1.2		invalid input
+P p	2	0.2		error
+P	2.5	0.4		Your name is P, you are 2 years old and your employment fraction is 0.4.	

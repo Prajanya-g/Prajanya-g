@@ -1,0 +1,6 @@
+INPUT	OUTPUT		NOTE
+1	primary		test Normal functionality
+8	secondary	test Normal functionality	
+100	tertiary 	test Normal functionality
+0	invalid		test not in scale 
+-1	invalid		test nor in scale 

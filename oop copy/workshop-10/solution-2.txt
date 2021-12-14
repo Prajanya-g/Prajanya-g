@@ -1,0 +1,10 @@
+Nested loop 
+If zero 
+Loop of length of row 
+Convert elements to 0 for each element for the same column and different row 
+End 
+Loop for length of column 
+Convert element to 0 for each element with the same row but different column
+End
+End 
+end

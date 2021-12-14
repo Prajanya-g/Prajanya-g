@@ -1,0 +1,4 @@
+Input	output	note 
+Dive	eviD	test normal functionality
+saNd	dNas	test capital letter in the center 
+@#1	1#@	test use of symbols and integer as string

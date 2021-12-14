@@ -1,0 +1,30 @@
+Events:
+Collision 
+	spaceship - asteroid 
+	bullet - asteroid 
+	asteroid - asteroid
+	bullet - ufo 
+	enemy bullet - spaceship => respawn spaceship
+Spaceship movement 
+	user input direction key - and how long they are pressed
+		key down 
+		key up
+	shoot key 
+
+Spawning 
+	asteroid splitting 
+	bullets (shooting)
+	UFO spawning 
+	spaceship (spawn, respawn)
+	asteroid
+
+Timing event
+	UFO spawning
+
+Death 
+
+No lives left
+
+Hit edge of screen 
+
+Start play event 

@@ -1,0 +1,12 @@
+
+Weight	Height	BMI	Note 
+
+77	1.8	23.77	Test normal functionality
+
+0	1.3	0	Test edge case 0. Should not display output but display message to check input
+
+82	0	inf	Test edge case 0. Should not display output but display message to check input
+
+-90	-1.2	-62.50	Test non realistic input. Should not display output but display message to check input
+
+

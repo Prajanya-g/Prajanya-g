@@ -1,0 +1,2 @@
+The code calculates the cube of vector A and stores in B. So, the graph for B will look like the graph of y = x^3. Similarly, the code calculates the 2 raised to the power of each element in A and
+% stores it in another vector C.  So, the graph for C will look like the graph of y = 2^x.

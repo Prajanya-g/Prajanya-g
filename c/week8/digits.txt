@@ -1,0 +1,16 @@
+INPUT	OUPUT	NOTE 
+	3
+123	2	test normal functionality 	
+	1
+	
+-432	invalid 	test negative integer 
+
+1234	invalid 	test larger input 
+
+000	invalid 	test triple 0 
+
+001	invalid	test single number
+
+	0
+200	0	test normal functionality 
+	2

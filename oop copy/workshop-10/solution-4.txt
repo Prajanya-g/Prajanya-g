@@ -1,0 +1,4 @@
+Plot on a 2d array 
+Place walls 
+Mouse waves straight till hit the wall then change direction 
+Reach the end !!

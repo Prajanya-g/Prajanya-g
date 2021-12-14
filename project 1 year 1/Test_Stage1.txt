@@ -1,0 +1,9 @@
+The first stage is taking input from the user of the image name and reading and storing the image. 
+ 
+Sample image 	stored vector size 	expected size 
+
+Sample1.jpg	384x512x3 uint8		384x512x3 
+Sample2.jpg	315x420x3 uint8		315x420x3
+Sample3.jpg	2880x5120x3 uint8	2880x5120x3 
+Sample4.jpg	2880x5120x3 uint8	2880x5120x3 
+Sample5.jpg	error			    message wrong input 
