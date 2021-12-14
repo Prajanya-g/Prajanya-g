@@ -1,6 +1,0 @@
-echo Test 01: some error
-./main < testinput01.txt | diff - testoutput01.txt
-echo Test 02: correct
-./main < testinput02.txt | diff - testoutput02.txt
-echo Test 03: mid termination
-./main < testinput03.txt | diff - testoutput03.txt
