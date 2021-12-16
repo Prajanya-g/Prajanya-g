@@ -1,4 +1,4 @@
-#PhotoEditor
+# PhotoEditor
 
 My first project in first year of university semester one. I chose to make a photo editor because I was facinates to learn how images are manipulate in matlab using basic code and it was fun to play with the pixels of the image and try different things with it 
 
