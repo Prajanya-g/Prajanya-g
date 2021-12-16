@@ -6,7 +6,7 @@
 - 🏫 This repository contains all the codes I have written at my university.
 - 💪 I have worked on varioius projects:
       - [Photo Editor](https://github.com/Prajanya-g/Prajanya-g/tree/main/PhotoEditor(Year1))
-      - [Textbased Game](https://github.com/Prajanya-g/Prajanya-g/tree/main/project%201%20year%201)
+      - [Textbased Game](https://github.com/Prajanya-g/Prajanya-g/tree/main/TextBasedGame(year%201))
 - 🧪 I have done some research work on improving the security of [IOT](https://github.com/Prajanya-g/Prajanya-g/tree/main/IoT%20Research) devices. 
 <!---
 Prajanya-g/Prajanya-g is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
