@@ -20,7 +20,7 @@ Some Present solutions to this problem include
 6. Data integrity
 7. Secure control applications
 
-**My research focuses on developing my suggest some solution to the problem that are not being worked on or are currently being developed 
+**My research focuses on currently soultuion that are being developed to solve teh stated problem
 Potential Solutions
 SEARCHABLE ENCRYPTION
 or
