@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>
+        Home
+    </title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%22%3E">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <script src="/javascripts/navBar.js" defer></script>
+</head>
+<body onload="getLoginStatus()">
+    <nav>
+        <ul id="menu">
+            <li><a href="index.html"><img src="/images/image.png" alt="EZ logo" id="logo"></a></li>
+            <li><div class="headerButton" id="navLogin"><a href="login.html">LOG IN</a></div></li>
+            <li><div class="headerButton" id="navSignup"><a href="login.html">SIGN UP</a></div></li>
+            <li><div class="headerButton" id="navLogout" onclick="log_out()">LOG OUT</div></li>
+            <li><div class="headerButton" id="navAccount"><a href="account.html">ACCOUNT</a></div></li>
+            <li><div class="headerButton"><a href="login.html" id="login">+ NEW EVENT</a><a href="createEvent.html" id="create">+ NEW EVENT</a></div></li>
+            <li><div class="headerButton" id="navAdmin"><a href="admin.html">ADMIN</a></div></li>
+            <li><p id="greeting"></p></li>
+        </ul>
+    </nav>
+    <div id="stripe">
+        <img src="/images/guy.png" alt="Guy thinking about planning" id="homePic">
+        <!--Heading will be replaced with 'Welcome XXXUser' if user is logged in-->
+        <div id="homeText">
+            <h1>Schedule Events With <em>Ease</em></h1>
+            <p>Simple planning tool to make life easier.</p>
+        </div>
+        <!-- If we want to make this a hyperlink instead of button function, css already has text-decoration:none -->
+        <button id="planButton" type="button"><a href="login.html" id="loginPlan">PLAN NOW</a><a href="createEvent.html" id="createPlan">PLAN NOW</a></button>
+    </div>
+</body>
+</html>

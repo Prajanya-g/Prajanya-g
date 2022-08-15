@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="google-signin-client_id" content="446213487514-n1bj3kj00h4jmtttaijih8ni5u5oadme.apps.googleusercontent.com">
+        <meta name="google-signin-plugin_name" content="APP">
+        <link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+        <script src="https://kit.fontawesome.com/1a9880673a.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+        <script src="/javascripts/login.js" defer></script>
+        <script src="/javascripts/navBar.js" defer></script>
+    </head>
+
+    <body>
+        <div>
+            <header id="navigation">
+            <nav>
+                <ul id="menu">
+                    <li><a href="index.html"><img src="/images/image.png" alt="EZ logo" id="logo"></a></li>
+                </ul>
+            </nav>
+            </header>
+            <main  id="loginPage">
+            <div class="login">
+                <div>
+                    <h2>LOGIN</h2>
+                </div>
+                <div  class="loginBody">
+                    <p class="warning" v-if="login401">This username does not exist or the password is incorrect.</p>
+                    <p>USERNAME</p>
+                    <input type="text" class="loginInputBox" id="loginUsername"></input>
+                    <p>PASSWORD</p>
+                    <input type="password" class="loginInputBox" id="loginPassword"></input>
+                    <div class="submitButton" v-on:click="log_in();">LOGIN</div>
+                </div>
+            </div>
+            <div class="signUp">
+                <div>
+                    <h2>SIGN UP</h2>
+                </div>
+                <div  class="signUpBody">
+                    <p class="signUpOption">SIGN UP WITH EMAIL</p>
+                    <p class="warning" v-if="signup403">This username already exist, please login or change to another username.</p>
+                    <p>USERNAME<i class="fa-solid fa-circle-info" title="Usernames are required to be 5 characters long or over and have begin with a letter."></i><p class="warning" v-if="invalid_username">Your username does not meet the requirements. Please enter a new username.</p></p>
+                    <input type="text" class="loginInputBox" id="signUpUsername"></input>
+                    <p>FIRST NAME<p class="warning" v-if="invalid_first_name">Please enter a name</p></p>
+                    <input type="text" class="loginInputBox" id="signUpFirstName"></input>
+                    <p>EMAIL<p class="warning" v-if="invalid_email">Please enter a valid email</p></p>
+                    <input type="email" class="loginInputBox" id="signUpEmail"></input>
+                    <p>PASSWORD<i class="fa-solid fa-circle-info" title="Passwords are required to be 6 to 256 characters long and have to include at least one letter and one number."></i><p class="warning" v-if="invalid_password">Your password does not meet the requirements. Please enter a new password.</p></p>
+                    <input type="password" class="loginInputBox" id="signUpPassword"></input>
+                    <div class="submitButton" v-on:click="check_valid_username(); check_valid_password(); check_email(); check_valid_first_name(); sign_up();">SIGN UP</div>
+                    <div class="icon">
+                        <h3 class="signUpOption">OR</h3>
+                        <p class="signUpOption">SIGN UP WITH GOOGLE</p>
+                        <div class="g-signin2" data-onsuccess="onSignIn"></div>
+                    </div>
+
+                </div>
+            </div>
+            </main>
+        </div>
+    </body>
+</html>
