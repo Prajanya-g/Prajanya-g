@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>
+        Admin
+    </title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%22%3E">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
+    <script src="/javascripts/admin.js"></script>
+    <!-- <script src="/javascripts/calendar.js"></script> -->
+    <!-- <script src="/javascripts/account.js" defer></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <script src="/javascripts/navBar.js" defer></script>
+</head>
+<body style="display: none;" onload="isAdmin()" id="body">
+    <nav id = "navigation">
+        <ul id="menu">
+            <li><a href="index.html"><img src="/images/image.png" alt="EZ logo" id="logo"></a></li>
+            <li><div class="headerButton"  onclick="log_out()">LOG OUT</div></li>
+            <li><div class="headerButton" ><a href="account.html">ACCOUNT</a></div></li>
+            <li><div class="headerButton"><a href="createEvent.html">+ NEW EVENT</a></div></li>
+            <li><p class="greeting" v-if="loggedIn">Hi, {{username}}!</p></li>
+        </ul>
+    </nav>
+    <div id="adminSearch">
+        <h2>USER SEARCH</h2>
+        <!-- <input type="text" id="userNameSearch"> -->
+        <button class="submitButton" height="2em" onclick="getUsers()" id="edit">
+            GET ALL USERS
+        </button>
+        <!-- <div>
+            <table id="userAccounts"></table>
+
+        </div> -->
+        <br/>
+        <div class="titleBox" id="users">
+            <!-- <div class="eventBox">
+                <h2 class="boxHeading">{{event.name}}
+                <a v-bind:href="event.url" class="viewEvent">VIEW EVENT</a>
+                </h2>
+            </div> -->
+        </div>
+
+
+
+
+        <!-- <h2>EVENT SEARCH</h2>
+        <input type="text" id="eventNameSearch">
+        <button class="submitButton" height="2em" onclick="searchEvents()" id="edit">
+            SEARCH
+        </button>
+        <div>
+            <table id="events"></table>
+        </div> -->
+    </div>
+</body>
+</html>
