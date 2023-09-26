@@ -1,0 +1,1 @@
+openAIKey = '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'
